@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head><title>My Shop</title>
+<style>
+body{font-family:Arial; padding:20px; background:#f5f5f5}
+.product{background:white; padding:15px; margin:10px; border-radius:8px; box-shadow:0 2px 5px #ccc}
+h1{color:#333}
+</style>
+</head>
+<body>
+<h1>🛍️ My Shop - Products</h1>
+{% for p in products %}
+<div class="product">
+<h3>{{ p.name }} - Rs.{{ p.price }}</h3>
+<p>{{ p.description }}</p>
+</div>
+{% empty %}
+<p>No products yet. Add from <a href="/admin/">Admin Panel</a></p>
+{% endfor %}
+<br><a href="/admin/">Go to Admin to Add Products</a>
+</body>
+</html>

@@ -1,4 +1,6 @@
-from django.http import HttpResponse
+from django.shortcuts import render
+from .models import Product
 
 def home(request):
-    return HttpResponse("<h1>Welcome To My Shop!</h1><p>Project Completed By Trupti</p>")
+    products = Product.objects.all()
+    return render(request, 'store/home.html', {'products': products})
