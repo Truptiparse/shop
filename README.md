@@ -1,23 +1,31 @@
-# My Shop - Django E-Commerce Project
-**Project Completed By Trupti Parse**
+# 🛍️ My Shop - Django E-Commerce Project
 
-A simple Django based online shop project.
+### Project Completed By Trupti Parse
+> A simple Django based online shop project - College Project Completed on Kali Linux.
 
-### Welcome To My Shop!
-This is my first Django project running on Kali Linux.
+**Live Repo:** https://github.com/Truptiparse/shop
 
-## 🚀 Features (Current)
-- Welcome Home Page
-- Django Project Setup
-- Running on Django Development Server
+### ✨ Welcome To My Shop!
+This is my first Django project running on Kali Linux. I built a fully functional online store.
 
-## 🛠️ Tech Stack
-- Python 3
-- Django
-- HTML / CSS
-- SQLite (default Django DB)
-- Kali Linux
+### 🚀 Features (Current)
+- ✅ Welcome Home Page with Products Display
+- ✅ Django Admin Panel
+- ✅ Add / Edit / Delete Products (Laptop, T-Shirt, Shoes)
+- ✅ Running on Django Development Server
+- ✅ SQLite Database
 
-## 📦 How to Run This Project Locally
+### 🛒 Upcoming Features
+- 🛒 Add to Cart
+- 👤 User Authentication
+- 💳 Payment Integration
+- 🎨 Bootstrap UI
 
-1. Clone the repo:
+### 🛠️ Tech Stack
+- Backend: Python 3, Django 6.1.1
+- Frontend: HTML / CSS
+- Database: SQLite
+- OS: Kali Linux
+- Version Control: Git & GitHub
+
+### 📦 How to Run
